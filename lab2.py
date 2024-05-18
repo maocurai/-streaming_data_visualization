@@ -79,7 +79,6 @@ if __name__ == '__main__':
     p_value = 2 * t.sf(np.abs(t_stat), df=n - 2)
 
     print(f"t-statistic: {t_stat}, p-value: {p_value}")
-
     print(f'F-statistic: {f_stat}')
 
     # Computing the 95% confidence interval for the regression line
